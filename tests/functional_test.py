@@ -2,16 +2,12 @@
 import random
 import unittest
 
-'''
+
 from .. import analytics
 from .. import io_geojson
 from .. import utils
-'''
 
-import analytics
-import io_geojson
-import utils
-import point
+from .. import point
 
 class TestFunctionalPointPattern(unittest.TestCase):
 
