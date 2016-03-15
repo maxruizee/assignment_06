@@ -7,7 +7,7 @@ Created on Mar 6, 2016
 
 class Point(object):
 
-    def __init__(self, x, y, **mark):
+    def __init__(self, x, y, mark):
         self.x = x
         self.y = y
         self.mark = mark
@@ -27,3 +27,6 @@ class Point(object):
 
     def getPoint(self):
         return (self.x, self.y)
+
+    def getMark(self):
+        return self.mark
