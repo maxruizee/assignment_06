@@ -6,8 +6,8 @@ Created on Feb 23, 2016
 import math
 import random
 #import analytics
-from analytics import average_nearest_neighbor_distance
-from point import Point
+from .analytics import average_nearest_neighbor_distance
+from .point import Point
 
 '''
 Function List
